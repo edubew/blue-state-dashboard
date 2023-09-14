@@ -3,7 +3,6 @@ import Home from "./pages/home/Home";
 import Users from "./pages/users/Users";
 import Products from "./pages/products/Products";
 import Layout from "./Layout";
-import './App.css'
 
 function App() {
   return (

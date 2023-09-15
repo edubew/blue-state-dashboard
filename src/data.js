@@ -120,4 +120,49 @@ export const menu = [
             },
         ],
     },
+];
+
+export const transactions = [
+    {
+        id: 1,
+        username: "Winnie",
+        email: "winnie@gmail.com",
+        amount: "3.25",
+    },
+    {
+        id: 2,
+        username: "Nikki",
+        email: "nikki@gmail.com",
+        amount: "5.25",
+    },
+    {
+        id: 3,
+        username: "Pam",
+        email: "pam@gmail.com",
+        amount: "3.25",
+    },
+    {
+        id: 4,
+        username: "Dishan",
+        email: "dishan@gmail.com",
+        amount: "1.25",
+    },
+    {
+        id: 5,
+        username: "Davy",
+        email: "davy@gmail.com",
+        amount: "6.25",
+    },
+    {
+        id: 6,
+        username: "Divan",
+        email: "divan@gmail.com",
+        amount: "0.25",
+    },
+    {
+        id: 7,
+        username: "Edube",
+        email: "edube@gmail.com",
+        amount: "4.25",
+    },
 ]

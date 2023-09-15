@@ -1,9 +1,12 @@
 import "./home.scss";
+import Transactions from "../../components/transactions/Transactions";
 
 const Home = () => {
   return (
     <div className="home__container">
-      <div className="box__container box1">Box1</div>
+      <div className="box__container box1">
+        <Transactions />
+      </div>
       <div className="box__container box2">Box2</div>
       <div className="box__container box3">Box3</div>
       <div className="box__container box4">Box4</div>

@@ -186,7 +186,7 @@ export const chartBoxUser = {
 
 export const chartBoxProduct = {
     color: "skyblue",
-    title: "Total Products",
+    title: "Total Bookings",
     number: "238",
     dataKey: "products",
     percentage: 21,
@@ -232,5 +232,35 @@ export const chartBoxConversion = {
         { name: "Thu", ratio: 400 },
         { name: "Fri", ratio: 500 },
         { name: "Sat", ratio: 450 },
+    ],
+};
+
+export const barChartBoxVisit = {
+    color: "#ff8842",
+    title: "Total Visit",
+    dataKey: "visit",
+    chartData: [
+        { name: "Sun", visit: 4000 },
+        { name: "Mon", visit: 3000 },
+        { name: "Tue", visit: 2000 },
+        { name: "Wed", visit: 7000 },
+        { name: "Thu", visit: 4000 },
+        { name: "Fri", visit: 5000 },
+        { name: "Sat", visit: 4500 },
+    ],
+};
+
+export const barChartBoxRevenue = {
+    color: "#8884d8",
+    title: "Profit Earned",
+    dataKey: "profit",
+    chartData: [
+        { name: "Sun", profit: 4000 },
+        { name: "Mon", profit: 3000 },
+        { name: "Tue", profit: 2000 },
+        { name: "Wed", profit: 2780 },
+        { name: "Thu", profit: 1890 },
+        { name: "Fri", profit: 2390 },
+        { name: "Sat", profit: 3490 },
     ],
 };

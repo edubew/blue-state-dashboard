@@ -1,7 +1,8 @@
 import "./home.scss";
 import Transactions from "../../components/transactions/Transactions";
 import ChartBox from "../../components/chartBox/ChartBox";
-import { chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from "../../data";
+import { barChartBoxRevenue, barChartBoxVisit, chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from "../../data";
+import BarChartBox from "../../components/barChartBox/BarChartBox";
 
 const Home = () => {
   return (
@@ -15,8 +16,8 @@ const Home = () => {
       <div className="box__container box5"><ChartBox {...chartBoxConversion} /></div>
       <div className="box__container box6"><ChartBox {...chartBoxRevenue} /></div>
       <div className="box__container box7">Box7</div>
-      <div className="box__container box8">Box8</div>
-      <div className="box__container box9">Box9</div>
+      <div className="box__container box8"><BarChartBox {...barChartBoxVisit} /></div>
+      <div className="box__container box9"><BarChartBox {...barChartBoxRevenue} /></div>
     </div>
   )
 }

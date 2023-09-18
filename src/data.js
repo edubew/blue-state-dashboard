@@ -168,7 +168,7 @@ export const transactions = [
 ];
 
 export const chartBoxUser = {
-    color: "#8884d8",
+    color: "#fd1f4a",
     title: "Total Users",
     number: "11.238",
     dataKey: "users",
@@ -236,7 +236,7 @@ export const chartBoxConversion = {
 };
 
 export const barChartBoxVisit = {
-    color: "#ff8842",
+    color: "#fd1f4a",
     title: "Total Visit",
     dataKey: "visit",
     chartData: [
@@ -251,7 +251,7 @@ export const barChartBoxVisit = {
 };
 
 export const barChartBoxRevenue = {
-    color: "#8884d8",
+    color: "#fbbd0d",
     title: "Profit Earned",
     dataKey: "profit",
     chartData: [

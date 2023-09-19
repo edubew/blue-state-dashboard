@@ -1,0 +1,17 @@
+.tables__container {
+
+    .data__grid {
+        padding: 1.3rem;
+        color: #fff;
+
+        .MuiDataGrid-toolbarContainer {
+            flex-direction: row-reverse;
+        }
+
+        .actions__container {
+            display: flex;
+            gap: 0.9rem;
+            font-size: 1.2rem;
+        }
+    }
+}

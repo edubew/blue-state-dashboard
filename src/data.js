@@ -3,6 +3,7 @@ import { AiOutlineUser, AiOutlineSetting, AiOutlineOrderedList } from "react-ico
 import { SiElement } from "react-icons/si";
 import { SlCalender } from "react-icons/sl";
 import { FaWpforms } from "react-icons/fa";
+import { PiUsersThreeDuotone } from "react-icons/pi";
 import { MdOutlineBackup, MdOutlinePostAdd, MdOutlineProductionQuantityLimits } from "react-icons/md";
 
 export const menu = [
@@ -32,7 +33,7 @@ export const menu = [
                 id: 1,
                 title: "Users",
                 url: "/users",
-                icon: AiOutlineUser,
+                icon: PiUsersThreeDuotone,
             },
             {
                 id: 2,
@@ -264,3 +265,11 @@ export const barChartBoxRevenue = {
         { name: "Sat", profit: 3490 },
     ],
 };
+
+export const userRows = [
+    { id: 1, lastName: 'Snow', firstName: 'Jon', title: 'Manager', age: 35, email: 'snow@gmail.com'},
+    { id: 2, lastName: 'Lannister', firstName: 'Cersei', title: 'Director', age: 42, email: 'cersei@gmail.com'},
+    { id: 3, lastName: 'Lannister', firstName: 'Jaime', title: 'Accountant', age: 45, email: 'jaime@gmail.com'},
+    { id: 4, lastName: 'Stark', firstName: 'Arya', title: 'Assistant', age: 16, email: 'arya@gmail.com'},
+    { id: 5, lastName: 'Targaryen', firstName: 'Daenerys', title: 'Marketing', age: 36, email: 'danny@gmail.com'},
+  ];

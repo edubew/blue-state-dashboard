@@ -272,4 +272,71 @@ export const userRows = [
     { id: 3, lastName: 'Lannister', firstName: 'Jaime', title: 'Accountant', age: 45, email: 'jaime@gmail.com'},
     { id: 4, lastName: 'Stark', firstName: 'Arya', title: 'Assistant', age: 16, email: 'arya@gmail.com'},
     { id: 5, lastName: 'Targaryen', firstName: 'Daenerys', title: 'Marketing', age: 36, email: 'danny@gmail.com'},
-  ];
+];
+
+export const productRows = [
+    { 
+        id: 1, 
+        img: 'https://i.pinimg.com/564x/80/f8/b0/80f8b0f22c6c30b86e9410f1a37780ab.jpg', 
+        title: '3 bedroom modern contemporary house', 
+        location: 'Mombasa', 
+        price: '$800', 
+        createdAt: '21.09,2023'
+    },
+    { 
+        id: 2, 
+        img: 'https://i.pinimg.com/564x/80/f8/b0/80f8b0f22c6c30b86e9410f1a37780ab.jpg', 
+        title: '3 bedroom modern contemporary house', 
+        location: 'Mombasa', 
+        price: '$800', 
+        createdAt: '21.09,2023'
+    },
+    { 
+        id: 3, 
+        img: 'https://i.pinimg.com/564x/80/f8/b0/80f8b0f22c6c30b86e9410f1a37780ab.jpg', 
+        title: '3 bedroom modern contemporary house', 
+        location: 'Mombasa', 
+        price: '$800', 
+        createdAt: '21.09,2023'
+    },
+    { 
+        id: 4, 
+        img: 'https://i.pinimg.com/564x/80/f8/b0/80f8b0f22c6c30b86e9410f1a37780ab.jpg', 
+        title: '3 bedroom modern contemporary house', 
+        location: 'Mombasa', 
+        price: '$800', 
+        createdAt: '21.09,2023'
+    },
+    { 
+        id: 5, 
+        img: 'https://i.pinimg.com/564x/80/f8/b0/80f8b0f22c6c30b86e9410f1a37780ab.jpg', 
+        title: '3 bedroom modern contemporary house', 
+        location: 'Mombasa', 
+        price: '$800', 
+        createdAt: '21.09,2023'
+    },
+    { 
+        id: 6, 
+        img: 'https://i.pinimg.com/564x/80/f8/b0/80f8b0f22c6c30b86e9410f1a37780ab.jpg', 
+        title: '3 bedroom modern contemporary house', 
+        location: 'Mombasa', 
+        price: '$800', 
+        createdAt: '21.09,2023'
+    },
+    { 
+        id: 7, 
+        img: 'https://i.pinimg.com/564x/80/f8/b0/80f8b0f22c6c30b86e9410f1a37780ab.jpg', 
+        title: '3 bedroom modern contemporary house', 
+        location: 'Mombasa', 
+        price: '$800', 
+        createdAt: '21.09,2023'
+    },
+    { 
+        id: 9, 
+        img: 'https://i.pinimg.com/564x/80/f8/b0/80f8b0f22c6c30b86e9410f1a37780ab.jpg', 
+        title: '3 bedroom modern contemporary house', 
+        location: 'Mombasa', 
+        price: '$800', 
+        createdAt: '21.09,2023'
+    },  
+];

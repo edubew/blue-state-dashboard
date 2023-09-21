@@ -2,7 +2,7 @@
 
     .data__grid {
         padding: 1.3rem;
-        color: #fff;
+        background-color: #fff;
 
         .MuiDataGrid-toolbarContainer {
             flex-direction: row-reverse;
@@ -12,6 +12,14 @@
             display: flex;
             gap: 0.9rem;
             font-size: 1.2rem;
+
+            .view {
+                color: limegreen;
+            }
+
+            .delete {
+                color: tomato;
+            }
         }
     }
 }
